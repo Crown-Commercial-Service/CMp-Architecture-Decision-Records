@@ -17,7 +17,7 @@ decisions are considered _binding_ on CMp unless a decision is made here tempora
 ## Process
 
 1. All Architecture decision records for CMp that are _not_ considered sensitive should be mastered here
-1. records should be named ADR-XXXX-\<name>.md
+1. records should be named XXXX-\<name>.md
 1. Some diagrams are stored in .dot file format - they need to be converted to `jpg` format
 
 ## Structure
@@ -37,5 +37,5 @@ Until then we can generate the files via command lines or web tools.
 ## Decisions
 
   - [0001-record-product-decisions.md](doc/adr/0001-record-product-decisions.md)
-  - [0002-use-auth0-in-private-beta](doc/adr/0002-use-auth0-in-private-beta.md)
+  - [0002-use-cogniti-in-private-beta](doc/adr/0002-use-auth0-in-private-beta.md)
   - [0003-use-a-single-domain.md](doc/adr/0003-use-a-single-domain.md)
