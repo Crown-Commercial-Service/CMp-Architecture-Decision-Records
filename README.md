@@ -36,4 +36,6 @@ Until then we can generate the files via command lines or web tools.
 
 ## Decisions
 
-TBD
+  - [0001-record-product-decisions.md](doc/adr/0001-record-product-decisions.md)
+  - [0002-use-auth0-in-private-beta](doc/adr/0002-use-auth0-in-private-beta.md)
+  - [0003-use-a-single-domain.md](doc/adr/0003-use-a-single-domain.md)
