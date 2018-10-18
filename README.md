@@ -11,14 +11,14 @@ CMp = Crown Marketplace
 ## Precedence
 
 - [CCS ADRs](https://github.com/Crown-Commercial-Service/CCS-Architecture-Decision-Records) 
-decisions are considred _binding_ on CMp unless a decision is made here temporarily overturning them
-- All decisions here that conflict with CCS ADRs must be approved by TDDA in a timely fashion
+decisions are considered _binding_ on CMp unless a decision is made here temporarily overturning them
+- all decisions here that conflict with CCS ADRs must be approved by TDDA in a timely fashion
 
 ## Process
 
-1. All Architecture decision records for CMp that are _not_ considered sensitive should be mastered here.
+1. All Architecture decision records for CMp that are _not_ considered sensitive should be mastered here
 1. records should be named ADR-XXXX-\<name>.md
-1. Some diagrams are stored in .dot file format - they need to be converted to `jpg` format.
+1. Some diagrams are stored in .dot file format - they need to be converted to `jpg` format
 
 ## Structure
 
