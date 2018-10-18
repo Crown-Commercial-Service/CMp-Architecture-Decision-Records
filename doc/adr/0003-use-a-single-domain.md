@@ -1,4 +1,4 @@
-# 1. Record architecture decisions
+# 1. Use one domain 
 
 Date: 2018-07-05
 
@@ -8,7 +8,9 @@ Proposed
 
 ## Abstract
 
-Use one domain for all five agreements, with different journeys.
+Use one domain for buyer journeys for all five agreements in beta.
+
+Once we understand the solution we can factor out multiple web components and domains later.
 
 ## Context
 
