@@ -1,4 +1,4 @@
-# 1. Record architecture decisions
+# 2. Use <software> for private beta
 
 Date: 2018-07-05
 
@@ -8,7 +8,7 @@ Proposed
 
 ## Abstract
 
-Use Auth0 for user authentication and authorisation for Private Beta. Reconsider the approach after that.
+Use <software> for user authentication and authorisation for Private Beta. Reconsider the approach after that.
 
 ## Context
 
@@ -24,9 +24,17 @@ Auth0 is already in use by another CCS digital service, Report Management Inform
 
 ## Decision
 
+### option 1
+
 We will use [Auth0](https://auth0.com) for authentication on a temporary basis.
 
 Auth0 is an authentication service that uses the OAuth protocol. It provides and simple integration path, and is free for several thousand active users.
+
+### option 1
+
+We will use AWS Cognito for authentication on a temporary basis.
+
+Cognito is tied in with our existing infrastructure approach and easy to integrate.
 
 We acknowledge that we are incurring technical debt by not integrating immediately with DfE Sign-In, however we believe that this will let us move more quickly during development.
 
