@@ -1,4 +1,4 @@
-# 2. Use <software> for private beta
+# 2. Use -some software- for private beta
 
 Date: 2018-07-05
 
