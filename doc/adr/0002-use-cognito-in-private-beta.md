@@ -24,7 +24,7 @@ Auth0 is already in use by another CCS digital service, Report Management Inform
 
 AWS Cognito is part of the AWS infrastructure and can be deployed using Terraform scripts according to [CCS #11. Use the same cloud architecture](https://github.com/Crown-Commercial-Service/CCS-Architecture-Decision-Records/blob/master/doc/adr/0011-use-the-same-cloud-architecture.md)
 
-We may have many thousands of users and either solution needs to be paid for. Since we cannot predict when other identity providers
+We may have many thousands of users and either solution needs to be paid for. Since we cannot predict when other identity providers come online.
 
 Costs 
 
@@ -57,5 +57,5 @@ We will integrate with Cognito, configuring via our Terraform scripts, but will 
 
 We will need to add DfE identity provider integration when it is available.
 
-We will work with other projects within CCS to establish the user needs around authentication, and feed into the decision around the final solution.
+We will work with other projects within CCS to establish the user needs around authentication, and feed into the decision around the strategic solution.
 
