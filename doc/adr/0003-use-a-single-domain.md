@@ -1,4 +1,4 @@
-# 1. Use one domain 
+# 3. Use one domain 
 
 Date: 2018-07-05
 
