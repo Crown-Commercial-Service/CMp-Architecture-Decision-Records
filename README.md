@@ -38,4 +38,4 @@ Until then we can generate the files via command lines or web tools.
 
 * [1. Record architecture decisions](doc/adr/0001-record-product-decisions.md)
 * [2. Use cognito for private beta](doc/adr/0002-use-cognito-in-private-beta.md)
-* [1. Use one domain ](doc/adr/0003-use-a-single-domain.md)
+* [3. Use one domain ](doc/adr/0003-use-a-single-domain.md)
