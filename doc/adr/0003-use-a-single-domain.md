@@ -4,7 +4,9 @@ Date: 2018-07-05
 
 ## Status
 
-Proposed
+Approved
+
+Approved TDDA
 
 ## Abstract
 
@@ -52,9 +54,9 @@ The domain will be:
 
 ## Consequences
 
-
 This decision may change as we learn more about the best way to build the service as a scalable foundation making use of common components, infrastructure and data sources. 
 
 For example we may choose to use a different domain for a buyer finding an agreement, and another domain for 
 competing an agreement with one or more suppliers.
 
+Having a single component for all user journeys raises a small risk when different journeys have different security recquirements. It may well be indicated to move parts of journeys that have a higer or different security profile to different web components. 
